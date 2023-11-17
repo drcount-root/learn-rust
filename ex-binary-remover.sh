@@ -1,0 +1,1 @@
+find . -type f -name "*.rs" -exec sh -c 'rm -f "${0%.rs}"' {} \;
